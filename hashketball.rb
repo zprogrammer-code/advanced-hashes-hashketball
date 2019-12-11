@@ -157,7 +157,11 @@ def player_numbers(team_name)
  # brooklyn_jerseys =[]
   #charlotte_jerseys = []
   game_hash.each{ |key, value|
+  value[:players].map{ |player|
   binding.pry
+    
+  }
+  
   
   }
 end
