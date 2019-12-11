@@ -136,6 +136,12 @@ end
   }
 end
 
+def team_colors(team_name)
+  game_hash.each{ |key, value|
+  binging.pry
+  }
+  
+
 
 
 
