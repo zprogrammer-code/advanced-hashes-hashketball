@@ -154,8 +154,8 @@ def team_names
 end 
 
 def players_numbers(team_name)
-  brooklyn_numbers =[]
-  charlotte_numbers = []
+  brooklyn_jerseys =[]
+  charlotte_jerseys = []
   game_hash.each{ |key, value|
   binding.pry
   
