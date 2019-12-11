@@ -146,7 +146,7 @@ end
 
 def team_names
   
-  game_hash.each{ |teams|
+  game_hash.each{ |data|
   binding.pry
   return teams[:team_name]
   }
