@@ -164,6 +164,7 @@ def player_numbers(team_name)
     brooklyn_jerseys << player[:number]
   else value[:team_name] == "Charlotte Hornets"
     charlotte_jerseys << player[:number]
+  end
  }
   }
 end
