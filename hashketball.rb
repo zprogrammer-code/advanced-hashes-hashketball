@@ -146,9 +146,12 @@ end
 
 def team_names
   team_names = []
-  game_hash.each{ |data|
-  team_names << data[0]
+  #team_names << game_hash[:home][:team_names]
+  
+  game_hash.each{ |key, value|
   binding.pry
+  team_names << data[0]
+  
   return teams[:team_name]
   }
 end 
