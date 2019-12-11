@@ -143,6 +143,12 @@ def team_colors(team_name)
   end
   }
 end
+
+def team_names
+  game_hash.each{ |key, value|
+  return value[team]
+  }
+end 
   
 
 
