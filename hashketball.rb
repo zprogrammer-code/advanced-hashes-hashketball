@@ -125,7 +125,7 @@ end
 } 
   }
 end
-
+binding.pry
 
 
 
