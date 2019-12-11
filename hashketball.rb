@@ -118,7 +118,7 @@ end
 
 def num_points_scored(name)
   game_hash.map{ |key, value|
-value[:players].map { |player|
+value[:players].each { |player|
 if player[:player_name] == name
   return player[:points]
 end
