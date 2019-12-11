@@ -153,7 +153,7 @@ def team_names
   return team_names
 end 
 
-def players_numbers(team_name)
+def player_numbers(team_name)
  # brooklyn_jerseys =[]
   #charlotte_jerseys = []
   game_hash.each{ |key, value|
