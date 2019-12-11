@@ -158,19 +158,13 @@ def player_numbers(team_name)
   #charlotte_jerseys = []
   
   game_hash.each{ |key, value|
-  
+  #p_num = value[:players]
   value[:players].map{ |player|
   if value[:team_name] == "Brooklyn Nets"
     brooklyn_jerseys << player[:number]
   else value[:team_name] == "Charlotte Hornets"
     charlotte_jerseys << player[:number]
-    
-  binding.pry
-  
-    
  }
-  
-  
   }
 end
   
