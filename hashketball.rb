@@ -138,6 +138,7 @@ end
 
 def team_colors(team_name)
   game_hash.each{ |key, value|
+  if value[]
   binding.pry
   }
 end
