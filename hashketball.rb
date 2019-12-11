@@ -146,7 +146,7 @@ end
 
 def team_names
   game_hash.each{ |key, value|
-  return value[team]
+  return value[]
   }
 end 
   
