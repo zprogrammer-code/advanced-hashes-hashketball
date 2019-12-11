@@ -170,7 +170,7 @@ def player_numbers(team_name)
   }
    if value[:team_name] == "Brooklyn Nets"
      return brooklyn_jerseys
-  
+  end
 end
 binding.pry
   
