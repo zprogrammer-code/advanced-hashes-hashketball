@@ -126,6 +126,8 @@ end
   }
 end
 
+def shoe_size
+
 
 
 
