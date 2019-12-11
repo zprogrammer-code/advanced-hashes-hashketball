@@ -154,7 +154,10 @@ def team_names
 end 
 
 def players_numbers
+  brooklyn_numbers =[]
+  charlotte_numbers = []
   game_hash.each{ |key, value|
+  binding.pry
   
   }
 end
