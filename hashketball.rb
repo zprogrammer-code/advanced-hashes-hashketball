@@ -152,6 +152,12 @@ def team_names
   }
   return team_names
 end 
+
+def players_numbers
+  game_hash.each{ |key, value|
+  
+  }
+end
   
 
 
