@@ -162,7 +162,8 @@ def player_numbers(team_name)
   value[:players].map{ |player|
   if value[:team_name] == "Brooklyn Nets"
     brooklyn_jerseys << player[:number]
-  else value[:team_name] == 
+  else value[:team_name] == "Charlotte Hornets"
+    charlotte_jerseys << player[:number]
     
   binding.pry
   
