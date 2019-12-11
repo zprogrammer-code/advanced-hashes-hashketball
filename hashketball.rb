@@ -161,10 +161,10 @@ def player_numbers(team_name)
   value[:players].map{ |player|
   if value[:team_name] == "Brooklyn Nets"
     brooklyn_jerseys << player[:number]
-    return brooklyn_jerseys
+
   else value[:team_name] == "Charlotte Hornets"
     charlotte_jerseys << player[:number]
-    return charlotte_jerseys
+    
   end
  }
   }
