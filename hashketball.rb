@@ -154,8 +154,8 @@ def team_names
 end 
 
 def player_numbers(team_name)
- # brooklyn_jerseys =[]
-  #charlotte_jerseys = []
+  brooklyn_jerseys =[]
+  charlotte_jerseys = []
   
   game_hash.each{ |key, value|
   #p_num = value[:players]
