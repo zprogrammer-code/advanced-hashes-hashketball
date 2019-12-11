@@ -145,9 +145,10 @@ def team_colors(team_name)
 end
 
 def team_names
+  
+  game_hash.each{ |teams|
   binding.pry
-  game_hash.each{ |teams, value|
-  return value[:team_name]
+  return teams[:team_name]
   }
 end 
   
