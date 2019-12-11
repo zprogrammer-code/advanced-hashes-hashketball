@@ -146,6 +146,7 @@ end
 
 def team_names
   game_hash.each{ |teams, value|
+  binding.pry
   return value[:team_name]
   }
 end 
