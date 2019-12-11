@@ -158,11 +158,11 @@ def player_numbers(team_name)
   #charlotte_jerseys = []
   game_hash[:home].each{ |key, value|
   binding.pry
-  value[:players].map{ |player|
+ # value[:players].map{ |player|
   
   
     
-  }
+ # }
   
   
   }
